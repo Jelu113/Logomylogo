@@ -1,5 +1,5 @@
 const { getUserInput } = require('./lib/user-input');
-const { saveSVGToFile } = require('./lib/file-utils');
+const { saveSVGToFile } = require('./lib/utils');
 const LogoGenerator = require('./lib/logo-generator');
 
 async function main() {
