@@ -1,8 +1,9 @@
 const { getUserInput } = require('./lib/user-input');
 const { saveSVGToFile } = require('./lib/utils');
 const LogoGenerator = require('./lib/logo-generator');
+const inquirer = require('inquirer');
 
-async function main() {
+async function generateLogo() {
   try {
     const userInput = await getUserInput();
 
@@ -17,9 +18,14 @@ async function main() {
     const fileName = 'logo.svg';
 
     saveSVGToFile(fileName, svgContent);
+
+    console.log(`Generated ${fileName}`);
   } catch (error) {
-    console.error('Error:', error);
+    console.error('Error:', error.message);
   }
 }
 
-main();
+generateLogo();
+
+
+
