@@ -1,5 +1,5 @@
 # Logomylogo 
- Video  chrome-extension://mmeijimgabbpbgpdklnllpncmdofkcpn/app.html#/files/753a71ce-c17b-4de4-y952-01e286d25909
+ Video  https://drive.google.com/file/d/12pRQf-huP6ci_nrdqkdnaCpTRQX464ew/view
  Github  https://github.com/Jelu113/Logomylogo
 
  
